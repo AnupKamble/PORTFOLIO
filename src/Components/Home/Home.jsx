@@ -71,13 +71,13 @@ const Home = ({ scrollRef }) => {
           <h1>
             <span>Hey👋, I'm </span>
             <div className={styles.name} style={{ color: `${newTheme.title}` }}>
-              Anup.
+              Anup Kamble.
             </div>
           </h1>
-          <h1>Full Stack Web Developer.</h1>
+          <h1><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Secular+One&weight=900&size=27&pause=1000&color=8993B1&width=435&lines=FULL-STACK+WEB+DEVELOPER;M+E+R+N" alt="Typing SVG" /></a></h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1-ORldVEtCxXz60MoQGchG3q-ahjrsCo1/view?usp=share_link"
+              href="https://drive.google.com/file/d/1KlTvKAuF4n9Nroy5cI-UUnNIsfjXhTMw/view?usp=share_link"
 
 
               target="_blank"

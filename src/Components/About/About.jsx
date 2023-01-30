@@ -14,7 +14,7 @@ const About = () => {
       <div className={styles.first}>
         <img
           src={
-            "https://github.com/RahulGoyal03/Portfolio/blob/main/public/developer.gif?raw=true"
+            "https://github.com/AnupKamble/PORTFOLIO/blob/master/public/aboutme-unscreen.gif?raw=true"
           }
           alt=""
         />

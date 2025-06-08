@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import styles from "./TechStacks.module.css";
 
-const TechStacks = () => {
+const Tools = () => {
   const { newTheme } = useContext(ThemeContext);
   return (
     <div
@@ -12,7 +12,7 @@ const TechStacks = () => {
       data-aos-duration="800"
     >
       <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
-        Proficiencies
+        Industry Tools
       </h1>
       <div className={styles.borderBottom} />
       {/* <h2
@@ -29,39 +29,8 @@ const TechStacks = () => {
           }}
           className={styles.logoWrapper}
         >
-          <i className="devicon-html5-plain colored" />
-          <span>HTML</span>
-        </div>
-        <div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className="devicon-css3-plain colored" />
-          <span>CSS</span>
-        </div>
-        <div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className="devicon-javascript-plain colored" />
-          <span>Javascript</span>
-        </div>
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className="devicon-typescript-plain colored" />
-          <span>Typescript</span>
+          <i className="devicon-firebase-plain colored" />
+          <span>Firebase</span>
         </div>
 
         <div
@@ -71,10 +40,9 @@ const TechStacks = () => {
           }}
           className={styles.logoWrapper}
         >
-          <i className="devicon-react-original colored" />
-          <span>React</span>
+          <i className="devicon-postman-plain colored" />
+          <span>Postman</span>
         </div>
-      
 
         <div
           style={{
@@ -83,118 +51,11 @@ const TechStacks = () => {
           }}
           className={styles.logoWrapper}
         >
-          <i style={{ color: "#7248B6" }} className="devicon-redux-original" />
-          <span>Redux</span>
+          <i className="devicon-vscode-plain colored" />
+          <span>VS Code</span>
         </div>
 
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-jquery-plain colored' />
-          <span>Juery</span>
-        </div>
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          {/* <i className="devicon--plain colored" /> */}
-          <span>NextJS</span>
-        </div>
-
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          {/* <i className="devicon--plain colored" /> */}
-          <span>Zustand</span>
-        </div>
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-materialui-plain colored' />
-          <span>Material UI</span>
-        </div>
-
-		
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-chakraui-plain colored' />
-          <span>Chakra UI</span>
-        </div>
-
-
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-tailwind-plain colored' />
-          <span>Tailwind CSS</span>
-        </div>
-
-		
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-vite-plain colored' />
-          <span>Vite</span>
-        </div>
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-json-plain colored' />
-          <span>JSON</span>
-        </div>
-
-
-		<div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className='devicon-npm-plain colored' />
-          <span>NPM</span>
-        </div>
-
-
-
-
+   
         <div
           style={{
             color: `${newTheme.title}`,
@@ -202,57 +63,33 @@ const TechStacks = () => {
           }}
           className={styles.logoWrapper}
         >
-          <i style={{ color: "#509941" }} className="devicon-nodejs-plain" />
-          <span>Node</span>
+          <i className="devicon-jwt-plain colored" />
+          <span>JWT</span>
         </div>
-
-		
-
-
-        <div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className="devicon-express-original" />
-          <span>Express</span>
-        </div>
-        <div
-          style={{
-            color: `${newTheme.title}`,
-            background: `${newTheme.linkHover}`,
-          }}
-          className={styles.logoWrapper}
-        >
-          <i className="devicon-mongodb-plain colored" />
-          <span>MongoDB</span>
-        </div>
-
 
         
-		<div
+       
+
+
+        <div
           style={{
             color: `${newTheme.title}`,
             background: `${newTheme.linkHover}`,
           }}
           className={styles.logoWrapper}
         >
-          <i className='devicon-java-plain colored' />
-          <span>Java</span>
+          <i className="devicon-github-plain colored" />
+          <span>Github</span>
         </div>
-
-
-		<div
+        <div
           style={{
             color: `${newTheme.title}`,
             background: `${newTheme.linkHover}`,
           }}
           className={styles.logoWrapper}
         >
-          <i className='devicon-python-plain colored' />
-          <span>Python</span>
+          <i className="devicon-git-plain colored" />
+          <span>Git</span>
         </div>
 
         <div
@@ -262,12 +99,124 @@ const TechStacks = () => {
           }}
           className={styles.logoWrapper}
         >
-          {/* <i className='devicon-mongodb-plain colored' /> */}
-          <span>Data Structures And Algorithms</span>
+          <i className="devicon-heroku-plain colored" />
+          <span>Heroku</span>
+        </div>
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-vercel-plain colored" />
+          <span>Vercel</span>
+        </div>
+
+
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-vercel-plain colored" />
+          <span>Netlify</span>
+        </div>
+
+
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-veeva-plain colored" />
+          <span>Veeva Vault</span>
+        </div>
+
+
+
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-illustrator-plain colored" />
+          <span>illustrator</span>
+        </div>
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-photoshop-plain colored" />
+          <span>Photoshop</span>
+        </div>
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-google-plain colored" />
+          <span>Google Web Designer</span>
+        </div>
+         
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-figma-plain colored" />
+          <span>Figma</span>
+        </div>
+
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-figma-plain colored" />
+          <span>Canva</span>
+        </div>
+
+
+
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-confluence-plain colored" />
+          <span>confluence</span>
+        </div>
+        <div
+          style={{
+            color: `${newTheme.title}`,
+            background: `${newTheme.linkHover}`,
+          }}
+          className={styles.logoWrapper}
+        >
+          <i className="devicon-jira-plain colored" />
+          <span>JIRA</span>
         </div>
       </div>
     </div>
   );
 };
 
-export default TechStacks;
+export default Tools;

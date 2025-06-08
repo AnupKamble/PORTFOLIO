@@ -3,18 +3,17 @@ import styles from "./Home.module.css";
 import Card from "../Card/Card";
 import SideIcons from "../SideIcons/SideIcons";
 import TechStacks from "../TechStacks/TechStacks";
+import Tools from "../IndustyTools/Tools";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../../assets/Anup.png"
+import img1 from "../../assets/Anup.png";
 import { Button } from "../Button/Button";
 import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import GitHub from "../Calender/calender";
-// import Experiences from '../Experiences/Experiences';
-
-
+import Experiences from "../Experiences/Experiences";
 
 const Home = ({ scrollRef }) => {
   const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
@@ -74,12 +73,17 @@ const Home = ({ scrollRef }) => {
               Anup Kamble.
             </div>
           </h1>
-          <h1><a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Secular+One&weight=900&size=27&pause=1000&color=8993B1&width=435&lines=FULL-STACK+WEB+DEVELOPER;M+E+R+N" alt="Typing SVG" /></a></h1>
+          <h1>
+            <a href="https://git.io/typing-svg">
+              <img
+                src="https://readme-typing-svg.herokuapp.com?font=Secular+One&weight=900&size=27&pause=1000&color=8993B1&width=435&lines=FULL-STACK+WEB+DEVELOPER;M+E+R+N"
+                alt="Typing SVG"
+              />
+            </a>
+          </h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1KlTvKAuF4n9Nroy5cI-UUnNIsfjXhTMw/view?usp=share_link"
-
-
+              href="https://drive.google.com/file/d/1u3c9WyUdNXdJWjsQ1fJ8HBZJBOPZFu1b/view"
               target="_blank"
               rel="noreferrer"
             >
@@ -100,14 +104,10 @@ const Home = ({ scrollRef }) => {
           style={{
             transform: `translateX(${offset * 2.5}px)`,
             opacity: `${offset > 300 ? "0" : offset > 160 ? ".5" : "1"}`,
-           
           }}
           className={styles.profileImage}
         >
-          <img
-            src={img1}
-            alt="Profile pic"
-          />
+          <img src={img1} alt="Profile pic" />
         </div>
       </div>
 
@@ -124,9 +124,31 @@ const Home = ({ scrollRef }) => {
       <div id="techStacks" className={styles.techStacks}>
         <TechStacks />
       </div>
-        
+
+      <div id="techStacks" className={styles.techStacks}>
+        <Tools />
+      </div>
+
+      <div
+        id="experience"
+        className={styles.experiences}
+        style={{
+          background: `${newTheme.highlightBackground}`,
+        }}
+      >
+        <div
+          data-aos="fade-right"
+          data-aos-offset="150"
+          data-aos-easing="ease-in-sine"
+          data-aos-duration="700"
+          style={{ color: `${newTheme.para}` }}
+        >
+          <Experiences />
+        </div>
+      </div>
+
       <div>
-        <GitHub/>
+        <GitHub />
       </div>
 
       {/* project section from here => */}

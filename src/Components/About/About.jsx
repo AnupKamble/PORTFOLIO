@@ -25,21 +25,18 @@ const About = () => {
         </h1>
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
-        <span style={{ color: `#00a0a0` }}>
+        {/* <span style={{ color: `#00a0a0` }}>
           
         Hello!
-        </span>
-        &nbsp;My name is Anup and I like to build websites that
-          serves the world and always want to enhance my knowledge & adpot new
-          technologies that make impact on people. My interest in web
-          development started when I joined Masai School to learn full stack
-          Web-Development — taught me alot about HTML,CSS & JS. <br />
-          <br /> Fast Forwarding to today, I built a number of web applications
-          and major projects. Learned a great deal about teamwork, leadership,
-          and communication. After months of rigorous training, here I am 
+        </span> */}
+        A results-driven <b>MERN Full Stack Developer</b> with 2 years of experience in MERN full-stack web development. Proficient in <strong>JavaScript, TypeScript, ES6, React.js, Next.js, jQuery, Node.js, Express.js, MongoDB, PostgreSQL and MySQL</strong> with expertise in REST API development, authentication <b>(JWT, Passport.js)</b> and state management <b>(Redux (RTK), Zustand)</b>. Experienced in UI frameworks like <b>Tailwind CSS, Bootstrap, Shadcn UI, MUI and chakra UI</b> for responsive web design. <br /> <br />
+
+Proficient in <b>AWS-EC2, Docker, Git, GitHub, Postman, Vercel, Netlify, Firebase, and Heroku</b> for development, testing, and deployment. Strong understanding of Agile methodologies, leveraging Jira and Confluence for efficient project management. Experienced in UI/UX design tools such as <b>Figma, Adobe Photoshop, Canva, and Google Web Designer (GWD)</b>. <br /> <br />
+
+Experienced in leveraging AI-driven automation through Generative AI tools like Cursor AI, OpenAI (ChatGPT) and Gemini to streamline and enhance digital workflows. Passionate about building scalable web applications, optimizing digital content strategies, and driving seamless collaboration across teams. 🚀 
           <span style={{ color: `#00a0a0` }}>
           
-            &nbsp; looking for an opportunity as a full stack web developer
+            &nbsp; looking for an opportunity as a full stack web developer.
           </span>
           .
         </p>
